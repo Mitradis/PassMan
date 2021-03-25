@@ -96,6 +96,9 @@ namespace PassMan
             {
                 clickedButton.ForeColor = System.Drawing.SystemColors.ControlText;
             }
+            timer1.Stop();
+            timer1.Start();
+            textBox2.ForeColor = System.Drawing.SystemColors.WindowText;
             clickedButton = (Button)sender;
             currentFile = clickedButton.Text;
             if (previousFile != null && changedText)
@@ -184,6 +187,19 @@ namespace PassMan
                 if (sender != null)
                     ((TextBox)sender).SelectAll();
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            timer1.Stop();
+            textBox2.ForeColor = textBox2.BackColor;
+        }
+
+        private void textBox2_MouseClick(object sender, MouseEventArgs e)
+        {
+            timer1.Stop();
+            timer1.Start();
+            textBox2.ForeColor = System.Drawing.SystemColors.WindowText;
         }
 
         private void writeToFile(string path, List<string> list)
