@@ -1,0 +1,8 @@
+C:\Build\PassMan\PassMan\bin\Release\PassMan.exe.config
+C:\Build\PassMan\PassMan\bin\Release\PassMan.exe
+C:\Build\PassMan\PassMan\bin\Release\PassMan.pdb
+C:\Build\PassMan\PassMan\obj\Release\PassMan.FormMain.resources
+C:\Build\PassMan\PassMan\obj\Release\PassMan.FormAdd.resources
+C:\Build\PassMan\PassMan\obj\Release\PassMan.csproj.GenerateResource.Cache
+C:\Build\PassMan\PassMan\obj\Release\PassMan.exe
+C:\Build\PassMan\PassMan\obj\Release\PassMan.pdb
