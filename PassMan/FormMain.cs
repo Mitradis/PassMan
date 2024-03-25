@@ -99,7 +99,7 @@ namespace PassMan
                                 {
                                     if (!String.IsNullOrEmpty(line))
                                     {
-                                        cacheFile.AddRange(decryptString(line).Split(new string[] { Environment.NewLine }, StringSplitOptions.None));
+                                        cacheFile.AddRange(decryptString(line).Split(new string[] { Environment.NewLine }, StringSplitOptions.RemoveEmptyEntries));
                                         break;
                                     }
                                 }
